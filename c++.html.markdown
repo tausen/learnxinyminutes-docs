@@ -159,7 +159,7 @@ void foo()
 
 int main()
 {
-    // Includes all symbols from `namesapce Second` into the current scope. Note
+    // Includes all symbols from `namespace Second` into the current scope. Note
     // that simply `foo()` no longer works, since it is now ambiguous whether
     // we're calling the `foo` in `namespace Second` or the top level.
     using namespace Second;
